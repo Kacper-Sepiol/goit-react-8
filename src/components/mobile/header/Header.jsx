@@ -1,8 +1,11 @@
-import headerStyle from './headerStyle.module.css';
+import headerStyle from "./headerStyle.module.css";
 
 const Header = () => {
     return (
-        <div>
+        <div
+            className="container"
+            style={{ height: 60, display: "flex", alignItems: "center" }}
+        >
             <a className={headerStyle.header__logo} href="#">
                 WebStudio
             </a>
