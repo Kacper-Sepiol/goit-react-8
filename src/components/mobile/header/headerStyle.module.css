@@ -1,0 +1,7 @@
+.header__logo {
+    color: var(--acent-color);
+    font-family: var(--logo-font);
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+}
