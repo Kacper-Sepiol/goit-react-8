@@ -6,15 +6,15 @@ import { useMediaQuery } from "react-responsive";
 const MobileView = lazy(() => import("./mobile/MobileView"));
 
 export const App = () => {
-  const mobile = useMediaQuery({ maxWidth: 767 });
-  const tablet = useMediaQuery({ minWidth: 768, maxWidth: 1023 });
-  const desktop = useMediaQuery({ minWidth: 2560 });
+    const mobile = useMediaQuery({ maxWidth: 767 });
+    const tablet = useMediaQuery({ minWidth: 768, maxWidth: 1023 });
+    const desktop = useMediaQuery({ minWidth: 2560 });
 
-  return (
-    <>
-      <Suspense fallback={<h1>Loading...</h1>}>
-        {mobile && <MobileView />}
-      </Suspense>
-    </>
-  );
+    return (
+        <>
+            <Suspense fallback={<h1>Loading...</h1>}>
+                {mobile && <MobileView />}
+            </Suspense>
+        </>
+    );
 };
