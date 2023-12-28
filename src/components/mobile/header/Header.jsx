@@ -1,4 +1,5 @@
 import headerStyle from "./headerStyle.module.css";
+import { IconSvg } from "../../iconSvg/IconSvg";
 
 const Header = () => {
     return (
@@ -11,6 +12,7 @@ const Header = () => {
             </a>
 
             {/* tutaj powinna byc ikona */}
+            <IconSvg width={40} height={40} />
         </div>
     );
 };
