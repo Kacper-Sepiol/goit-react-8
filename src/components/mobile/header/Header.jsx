@@ -7,7 +7,7 @@ const Header = () => {
             style={{ height: 60, display: "flex", alignItems: "center" }}
         >
             <a className={headerStyle.header__logo} href="#">
-                WebStudio
+                Web<span style={{ color: "#212121" }}>Studio</span>
             </a>
 
             {/* tutaj powinna byc ikona */}
