@@ -7,6 +7,7 @@ import secondSectionStyle from "./secondSection/secondSectionStyle.module.css";
 const Header = lazy(() => import("./header/Header"));
 const MainSection = lazy(() => import("./mainSection/MainSection"));
 const SecondSection = lazy(() => import("./secondSection/SecondSection"));
+const OurTeamSection = lazy(() => import("./ourTeamSection/OurTeamSection"));
 
 const MobileView = () => {
     return (
@@ -22,7 +23,9 @@ const MobileView = () => {
                     <section className={secondSectionStyle.secondSection}>
                         <SecondSection />
                     </section>
-                    <section>{/* tutaj trzeba wstawic sekcje */}</section>
+                    <section>
+                        <OurTeamSection />
+                    </section>
                     <section>{/* tutaj trzeba wstawic sekcje */}</section>
                 </main>
                 <footer>{/* tutaj trzeba wstawic footer */}</footer>
