@@ -1,5 +1,5 @@
 .listItemIcon {
-    width: 450px;
+    width: auto;
     height: 120px;
     border-radius: 4px;
     background-color: var(--buttons-port-color);
