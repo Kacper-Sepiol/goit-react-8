@@ -5,14 +5,21 @@ const Header = () => {
     return (
         <div
             className="container"
-            style={{ height: 60, display: "flex", alignItems: "center" }}
+            style={{
+                height: 60,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+            }}
         >
             <a className={headerStyle.header__logo} href="#">
                 Web<span style={{ color: "#212121" }}>Studio</span>
             </a>
 
-            {/* tutaj powinna byc ikona */}
-            <IconSvg width={40} height={40} />
+            {/* blad ikony */}
+            <button type="button">
+                <IconSvg width={40} height={40} />
+            </button>
         </div>
     );
 };
