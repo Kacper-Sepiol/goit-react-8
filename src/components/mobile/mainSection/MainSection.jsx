@@ -1,4 +1,4 @@
-import mainSectionStyle from "./MainSectionStyle.module.css";
+import mainSectionStyle from "./mainSectionStyle.module.css";
 
 const MainSection = () => {
     return (

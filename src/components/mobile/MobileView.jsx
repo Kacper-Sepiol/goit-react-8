@@ -1,10 +1,12 @@
 import { lazy, Suspense } from "react";
-import mainSectionStyle from "./mainSection/MainSectionStyle.module.css";
+import mainSectionStyle from "./mainSection/mainSectionStyle.module.css";
+import secondSectionStyle from "./secondSection/secondSectionStyle.module.css";
 
 // import stron
 
 const Header = lazy(() => import("./header/Header"));
 const MainSection = lazy(() => import("./mainSection/MainSection"));
+const SecondSection = lazy(() => import("./secondSection/SecondSection"));
 
 const MobileView = () => {
     return (
@@ -17,7 +19,9 @@ const MobileView = () => {
                     <section className={mainSectionStyle.mainSection}>
                         <MainSection />
                     </section>
-                    <section>{/* tutaj trzeba wstawic sekcje */}</section>
+                    <section className={secondSectionStyle.secondSection}>
+                        <SecondSection />
+                    </section>
                     <section>{/* tutaj trzeba wstawic sekcje */}</section>
                     <section>{/* tutaj trzeba wstawic sekcje */}</section>
                 </main>
