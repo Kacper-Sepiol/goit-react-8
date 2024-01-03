@@ -1,0 +1,68 @@
+.ourTeamSection {
+    background-color: var(--buttons-port-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.title {
+    text-align: center;
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.84px;
+    margin-bottom: 30px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-color);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.listItem:not(:first-child) {
+    margin-top: 30px;
+}
+
+.name {
+    text-align: center;
+    margin-top: 30px;
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+}
+
+.occupation {
+    text-align: center;
+    color: var(--ouwer-text-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    margin-top: 10px;
+}
+
+.listIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.listIconsListItem:not(:last-child) {
+    margin-right: 10px;
+}

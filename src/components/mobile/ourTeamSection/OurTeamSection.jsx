@@ -12,7 +12,6 @@ const OurTeamSection = () => {
 
             <ul className={ourTeamSectionStyle.list}>
                 <li className={ourTeamSectionStyle.listItem}>
-                    {/* tutaj trzeba dac zdjecie tego goscia */}
                     <img
                         src={firstPicture}
                         alt="usmiechniety mezczyzna w czerwonej koszuli"
@@ -42,7 +41,6 @@ const OurTeamSection = () => {
                 </li>
 
                 <li className={ourTeamSectionStyle.listItem}>
-                    {/* tutaj trzeba dac zdjecie tej laski */}
                     <img
                         src={secondPicture}
                         alt="usmiechniety mezczyzna w czerwonej koszuli"
@@ -51,7 +49,7 @@ const OurTeamSection = () => {
                     <p className={ourTeamSectionStyle.name}>John Doe</p>
 
                     <p className={ourTeamSectionStyle.occupation}>
-                        Product Designer
+                        Frontend Developer
                     </p>
 
                     {/* tutaj trzeba dac ikonki */}
@@ -72,7 +70,6 @@ const OurTeamSection = () => {
                 </li>
 
                 <li className={ourTeamSectionStyle.listItem}>
-                    {/* tutaj trzeba dac zdjecie tego goscia */}
                     <img
                         src={thirdPicture}
                         alt="usmiechniety mezczyzna w czerwonej koszuli"
@@ -80,9 +77,7 @@ const OurTeamSection = () => {
 
                     <p className={ourTeamSectionStyle.name}>John Doe</p>
 
-                    <p className={ourTeamSectionStyle.occupation}>
-                        Product Designer
-                    </p>
+                    <p className={ourTeamSectionStyle.occupation}>Marketing</p>
 
                     {/* tutaj trzeba dac ikonki */}
                     <ul className={ourTeamSectionStyle.listIcons}>
@@ -102,7 +97,6 @@ const OurTeamSection = () => {
                 </li>
 
                 <li className={ourTeamSectionStyle.listItem}>
-                    {/* tutaj trzeba dac zdjecie tego goscia */}
                     <img
                         src={fourthPicture}
                         alt="usmiechniety mezczyzna w czerwonej koszuli"
@@ -111,7 +105,7 @@ const OurTeamSection = () => {
                     <p className={ourTeamSectionStyle.name}>John Doe</p>
 
                     <p className={ourTeamSectionStyle.occupation}>
-                        Product Designer
+                        UI Designer
                     </p>
 
                     {/* tutaj trzeba dac ikonki */}
