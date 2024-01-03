@@ -3,6 +3,7 @@ import mainSectionStyle from "./mainSection/mainSectionStyle.module.css";
 import secondSectionStyle from "./secondSection/secondSectionStyle.module.css";
 import ourTeamSectionStyle from "./ourTeamSection/ourTeamSectionStyle.module.css";
 import ourCustomersStyle from "./ourCustomersSection/ourCustomersStyle.module.css";
+import footerStyle from "./footer/footerStyle.module.css";
 
 // import stron
 
@@ -13,6 +14,7 @@ const OurTeamSection = lazy(() => import("./ourTeamSection/OurTeamSection"));
 const OurCustomersSection = lazy(() =>
     import("./ourCustomersSection/ourCustomersSection")
 );
+const Footer = lazy(() => import("./footer/footer"));
 
 const MobileView = () => {
     return (
@@ -35,7 +37,9 @@ const MobileView = () => {
                         <OurCustomersSection />
                     </section>
                 </main>
-                <footer>{/* tutaj trzeba wstawic footer */}</footer>
+                <footer className={footerStyle.footer}>
+                    <Footer />
+                </footer>
             </Suspense>
         </>
     );
