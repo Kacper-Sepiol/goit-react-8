@@ -1,5 +1,5 @@
 import secondSectionStyle from "./secondSectionStyle.module.css";
-import { IconSvg } from "../../iconSvg/IconSvg";
+// import { IconSvg } from "../../iconSvg/IconSvg";
 
 const SecondSection = () => {
     return (
@@ -8,7 +8,7 @@ const SecondSection = () => {
                 <li className={secondSectionStyle.listItem}>
                     <div className={secondSectionStyle.listItemIcon}>
                         {/* ikona do poprawy!!! */}
-                        <IconSvg width={70} height={70} />
+                        {/* <IconSvg width={70} height={70} /> */}
                     </div>
 
                     <p className={secondSectionStyle.title}>Lorem ipsum</p>
@@ -23,7 +23,7 @@ const SecondSection = () => {
                 <li className={secondSectionStyle.listItem}>
                     <div className={secondSectionStyle.listItemIcon}>
                         {/* ikona do poprawy!!! */}
-                        <IconSvg width={70} height={70} />
+                        {/* <IconSvg width={70} height={70} /> */}
                     </div>
 
                     <p className={secondSectionStyle.title}>Lorem ipsum</p>
@@ -38,7 +38,7 @@ const SecondSection = () => {
                 <li className={secondSectionStyle.listItem}>
                     <div className={secondSectionStyle.listItemIcon}>
                         {/* ikona do poprawy!!! */}
-                        <IconSvg width={70} height={70} />
+                        {/* <IconSvg width={70} height={70} /> */}
                     </div>
 
                     <p className={secondSectionStyle.title}>Lorem ipsum</p>
@@ -53,7 +53,7 @@ const SecondSection = () => {
                 <li className={secondSectionStyle.listItem}>
                     <div className={secondSectionStyle.listItemIcon}>
                         {/* ikona do poprawy!!! */}
-                        <IconSvg width={70} height={70} />
+                        {/* <IconSvg width={70} height={70} /> */}
                     </div>
 
                     <p className={secondSectionStyle.title}>Lorem ipsum</p>

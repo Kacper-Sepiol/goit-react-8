@@ -1,4 +1,4 @@
-import { IconSvg } from "../../iconSvg/IconSvg";
+// import { IconSvg } from "../../iconSvg/IconSvg";
 import firstPicture from "../../../img/teamPicture1.jpg";
 import secondPicture from "../../../img/teamPicture2.jpg";
 import thirdPicture from "../../../img/teamPicture3.jpg";
@@ -26,16 +26,16 @@ const OurTeamSection = () => {
                     {/* tutaj trzeba dac ikonki */}
                     <ul className={ourTeamSectionStyle.listIcons}>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                     </ul>
                 </li>
@@ -55,16 +55,16 @@ const OurTeamSection = () => {
                     {/* tutaj trzeba dac ikonki */}
                     <ul className={ourTeamSectionStyle.listIcons}>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                     </ul>
                 </li>
@@ -82,16 +82,16 @@ const OurTeamSection = () => {
                     {/* tutaj trzeba dac ikonki */}
                     <ul className={ourTeamSectionStyle.listIcons}>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                     </ul>
                 </li>
@@ -111,16 +111,16 @@ const OurTeamSection = () => {
                     {/* tutaj trzeba dac ikonki */}
                     <ul className={ourTeamSectionStyle.listIcons}>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                         <li className={ourTeamSectionStyle.listIconsListItem}>
-                            <IconSvg width={20} height={20} />
+                            {/* <IconSvg width={20} height={20} /> */}
                         </li>
                     </ul>
                 </li>

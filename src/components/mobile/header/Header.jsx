@@ -1,5 +1,4 @@
 import headerStyle from "./headerStyle.module.css";
-import { IconSvg } from "../../iconSvg/IconSvg";
 
 const Header = () => {
     return (
@@ -17,8 +16,10 @@ const Header = () => {
             </a>
 
             {/* blad ikony */}
-            <button type="button">
-                <IconSvg width={40} height={40} />
+            <button type="button" className={headerStyle.button}>
+                <svg width={40} height={40}>
+                    <path d="M6.4 11.736v-2.136h19.2v2.136h-19.2zM6.4 17.064h19.2v-2.128h-19.2v2.128zM6.4 22.4h19.2v-2.136h-19.2v2.136z"></path>
+                </svg>
             </button>
         </div>
     );

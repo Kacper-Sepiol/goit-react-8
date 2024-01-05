@@ -1,5 +1,5 @@
 import ourCustomersStyle from "./ourCustomersStyle.module.css";
-import { IconSvg } from "../../iconSvg/IconSvg";
+// import { IconSvg } from "../../iconSvg/IconSvg";
 
 const ourCustomersSection = () => {
     return (
@@ -9,32 +9,32 @@ const ourCustomersSection = () => {
             <ul className={ourCustomersStyle.list}>
                 <li className={ourCustomersStyle.listItem}>
                     {/* tutaj powinna byc ikona */}
-                    <IconSvg width={106} height={60} />
+                    {/* <IconSvg width={106} height={60} /> */}
                 </li>
 
                 <li className={ourCustomersStyle.listItem}>
                     {/* tutaj powinna byc ikona */}
-                    <IconSvg width={106} height={60} />
+                    {/* <IconSvg width={106} height={60} /> */}
                 </li>
 
                 <li className={ourCustomersStyle.listItem}>
                     {/* tutaj powinna byc ikona */}
-                    <IconSvg width={106} height={60} />
+                    {/* <IconSvg width={106} height={60} /> */}
                 </li>
 
                 <li className={ourCustomersStyle.listItem}>
                     {/* tutaj powinna byc ikona */}
-                    <IconSvg width={106} height={60} />
+                    {/* <IconSvg width={106} height={60} /> */}
                 </li>
 
                 <li className={ourCustomersStyle.listItem}>
                     {/* tutaj powinna byc ikona */}
-                    <IconSvg width={106} height={60} />
+                    {/* <IconSvg width={106} height={60} /> */}
                 </li>
 
                 <li className={ourCustomersStyle.listItem}>
                     {/* tutaj powinna byc ikona */}
-                    <IconSvg width={106} height={60} />
+                    {/* <IconSvg width={106} height={60} /> */}
                 </li>
             </ul>
         </div>
