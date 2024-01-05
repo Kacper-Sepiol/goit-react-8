@@ -1,13 +1,13 @@
-import footerStyle from "./footerStyle.module.css";
+import footerStyleMobile from "./footerStyleMobile.module.css";
 
 const footer = () => {
     return (
         <div className="container">
-            <h2 className={footerStyle.mainTitle}>
+            <h2 className={footerStyleMobile.mainTitle}>
                 <span style={{ color: "var(--acent-color)" }}>Web</span>Studio
             </h2>
 
-            <address className={footerStyle.address}>
+            <address className={footerStyleMobile.address}>
                 m. Warszawa, Aleje Jerozolimskie 21
             </address>
 
@@ -21,50 +21,50 @@ const footer = () => {
             >
                 <a
                     href="mailto:info@example.com"
-                    className={footerStyle.contactDetails}
+                    className={footerStyleMobile.contactDetails}
                 >
                     info@example.com
                 </a>
 
                 <a
                     href="tel:+48 111 111 111"
-                    className={footerStyle.contactDetails}
+                    className={footerStyleMobile.contactDetails}
                 >
                     +48 111 111 111
                 </a>
             </div>
 
             <div>
-                <p className={footerStyle.divText}>Dołącz do nas</p>
+                <p className={footerStyleMobile.divText}>Dołącz do nas</p>
 
-                <ul className={footerStyle.list}>
-                    <li className={footerStyle.listItem}>
+                <ul className={footerStyleMobile.list}>
+                    <li className={footerStyleMobile.listItem}>
                         {/* tutaj powinna byc ikona */}
                     </li>
-                    <li className={footerStyle.listItem}>
+                    <li className={footerStyleMobile.listItem}>
                         {/* tutaj powinna byc ikona */}
                     </li>
-                    <li className={footerStyle.listItem}>
+                    <li className={footerStyleMobile.listItem}>
                         {/* tutaj powinna byc ikona */}
                     </li>
-                    <li className={footerStyle.listItem}>
+                    <li className={footerStyleMobile.listItem}>
                         {/* tutaj powinna byc ikona */}
                     </li>
                 </ul>
             </div>
 
-            <p className={footerStyle.text}>Zapisz się do newslettera</p>
+            <p className={footerStyleMobile.text}>Zapisz się do newslettera</p>
 
-            <form className={footerStyle.form}>
+            <form className={footerStyleMobile.form}>
                 <input
                     type="text"
                     name="email"
                     placeholder="E-mail"
                     required
-                    className={footerStyle.input}
+                    className={footerStyleMobile.input}
                 />
 
-                <button type="submit" className={footerStyle.button}>
+                <button type="submit" className={footerStyleMobile.button}>
                     Zapisz się {/*tutaj powinna byc ikona */}
                 </button>
             </form>

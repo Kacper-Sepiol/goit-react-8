@@ -1,12 +1,12 @@
-import secondSectionStyle from "./secondSectionStyle.module.css";
+import secondSectionStyleMobile from "./secondSectionStyleMobile.module.css";
 // import { IconSvg } from "../../iconSvg/IconSvg";
 
 const SecondSection = () => {
     return (
         <div className="container">
-            <ul className={secondSectionStyle.list}>
-                <li className={secondSectionStyle.listItem}>
-                    <div className={secondSectionStyle.listItemIcon}>
+            <ul className={secondSectionStyleMobile.list}>
+                <li className={secondSectionStyleMobile.listItem}>
+                    <div className={secondSectionStyleMobile.listItemIcon}>
                         {/* ikona do poprawy!!! */}
                         {/* <IconSvg width={70} height={70} /> */}
                         <div
@@ -18,17 +18,19 @@ const SecondSection = () => {
                         ></div>
                     </div>
 
-                    <p className={secondSectionStyle.title}>Lorem ipsum</p>
+                    <p className={secondSectionStyleMobile.title}>
+                        Lorem ipsum
+                    </p>
 
-                    <p className={secondSectionStyle.description}>
+                    <p className={secondSectionStyleMobile.description}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nam vel arcu sem. Sed non sodales dui. Interdum et
                         malesuada
                     </p>
                 </li>
 
-                <li className={secondSectionStyle.listItem}>
-                    <div className={secondSectionStyle.listItemIcon}>
+                <li className={secondSectionStyleMobile.listItem}>
+                    <div className={secondSectionStyleMobile.listItemIcon}>
                         {/* ikona do poprawy!!! */}
                         {/* <IconSvg width={70} height={70} /> */}
                         <div
@@ -40,17 +42,19 @@ const SecondSection = () => {
                         ></div>
                     </div>
 
-                    <p className={secondSectionStyle.title}>Lorem ipsum</p>
+                    <p className={secondSectionStyleMobile.title}>
+                        Lorem ipsum
+                    </p>
 
-                    <p className={secondSectionStyle.description}>
+                    <p className={secondSectionStyleMobile.description}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nam vel arcu sem. Sed non sodales dui. Interdum et
                         malesuada
                     </p>
                 </li>
 
-                <li className={secondSectionStyle.listItem}>
-                    <div className={secondSectionStyle.listItemIcon}>
+                <li className={secondSectionStyleMobile.listItem}>
+                    <div className={secondSectionStyleMobile.listItemIcon}>
                         {/* ikona do poprawy!!! */}
                         {/* <IconSvg width={70} height={70} /> */}
                         <div
@@ -62,17 +66,19 @@ const SecondSection = () => {
                         ></div>
                     </div>
 
-                    <p className={secondSectionStyle.title}>Lorem ipsum</p>
+                    <p className={secondSectionStyleMobile.title}>
+                        Lorem ipsum
+                    </p>
 
-                    <p className={secondSectionStyle.description}>
+                    <p className={secondSectionStyleMobile.description}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nam vel arcu sem. Sed non sodales dui. Interdum et
                         malesuada
                     </p>
                 </li>
 
-                <li className={secondSectionStyle.listItem}>
-                    <div className={secondSectionStyle.listItemIcon}>
+                <li className={secondSectionStyleMobile.listItem}>
+                    <div className={secondSectionStyleMobile.listItemIcon}>
                         {/* ikona do poprawy!!! */}
                         {/* <IconSvg width={70} height={70} /> */}
                         <div
@@ -84,9 +90,11 @@ const SecondSection = () => {
                         ></div>
                     </div>
 
-                    <p className={secondSectionStyle.title}>Lorem ipsum</p>
+                    <p className={secondSectionStyleMobile.title}>
+                        Lorem ipsum
+                    </p>
 
-                    <p className={secondSectionStyle.description}>
+                    <p className={secondSectionStyleMobile.description}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nam vel arcu sem. Sed non sodales dui. Interdum et
                         malesuada

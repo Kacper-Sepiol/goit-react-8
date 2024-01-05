@@ -1,9 +1,9 @@
 import { lazy, Suspense } from "react";
-import mainSectionStyle from "./mainSection/mainSectionStyle.module.css";
-import secondSectionStyle from "./secondSection/secondSectionStyle.module.css";
-import ourTeamSectionStyle from "./ourTeamSection/ourTeamSectionStyle.module.css";
-import ourCustomersStyle from "./ourCustomersSection/ourCustomersStyle.module.css";
-import footerStyle from "./footer/footerStyle.module.css";
+import mainSectionStyleMobile from "./mainSection/mainSectionStyleMobile.module.css";
+import secondSectionStyleMobile from "./secondSection/secondSectionStyleMobile.module.css";
+import ourTeamSectionStyleMobile from "./ourTeamSection/ourTeamSectionStyleMobile.module.css";
+import ourCustomersStyleMobile from "./ourCustomersSection/ourCustomersStyleMobile.module.css";
+import footerStyleMobile from "./footer/footerStyleMobile.module.css";
 
 // import stron
 
@@ -24,20 +24,25 @@ const MobileView = () => {
                     <Header />
                 </header>
                 <main>
-                    <section className={mainSectionStyle.mainSection}>
+                    <section className={mainSectionStyleMobile.mainSection}>
                         <MainSection />
                     </section>
-                    <section className={secondSectionStyle.secondSection}>
+
+                    <section className={secondSectionStyleMobile.secondSection}>
                         <SecondSection />
                     </section>
-                    <section className={ourTeamSectionStyle.ourTeamSection}>
+
+                    <section
+                        className={ourTeamSectionStyleMobile.ourTeamSection}
+                    >
                         <OurTeamSection />
                     </section>
-                    <section className={ourCustomersStyle.ourCustomers}>
+
+                    <section className={ourCustomersStyleMobile.ourCustomers}>
                         <OurCustomersSection />
                     </section>
                 </main>
-                <footer className={footerStyle.footer}>
+                <footer className={footerStyleMobile.footer}>
                     <Footer />
                 </footer>
             </Suspense>
