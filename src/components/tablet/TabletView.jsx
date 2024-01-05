@@ -1,11 +1,16 @@
 import { lazy, Suspense } from "react";
+import headerStyleTablet from "./header/headerStyleTablet.module.css";
 
 // import stron
+
+const Header = lazy(() => import("./header/Header"));
 
 const TabletView = () => {
     return (
         <Suspense fallback={<h1>Loading...</h1>}>
-            <header>{/* miejsce na header */}</header>
+            <header>
+                <Header />
+            </header>
             <main>
                 <section>{/* main section */}</section>
 

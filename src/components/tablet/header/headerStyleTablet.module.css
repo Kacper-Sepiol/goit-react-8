@@ -1,0 +1,23 @@
+.mainText {
+    color: var(--main-text-color);
+    font-family: var(--logo-font);
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    min-height: 80px;
+    background-color: red;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
