@@ -1,4 +1,4 @@
-.header__logo {
+.headerLogo {
     color: var(--acent-color);
     font-family: var(--logo-font);
     font-size: 24px;

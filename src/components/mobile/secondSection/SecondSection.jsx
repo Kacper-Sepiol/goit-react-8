@@ -9,6 +9,13 @@ const SecondSection = () => {
                     <div className={secondSectionStyle.listItemIcon}>
                         {/* ikona do poprawy!!! */}
                         {/* <IconSvg width={70} height={70} /> */}
+                        <div
+                            style={{
+                                width: 70,
+                                height: 70,
+                                backgroundColor: "red",
+                            }}
+                        ></div>
                     </div>
 
                     <p className={secondSectionStyle.title}>Lorem ipsum</p>
@@ -24,6 +31,13 @@ const SecondSection = () => {
                     <div className={secondSectionStyle.listItemIcon}>
                         {/* ikona do poprawy!!! */}
                         {/* <IconSvg width={70} height={70} /> */}
+                        <div
+                            style={{
+                                width: 70,
+                                height: 70,
+                                backgroundColor: "red",
+                            }}
+                        ></div>
                     </div>
 
                     <p className={secondSectionStyle.title}>Lorem ipsum</p>
@@ -39,6 +53,13 @@ const SecondSection = () => {
                     <div className={secondSectionStyle.listItemIcon}>
                         {/* ikona do poprawy!!! */}
                         {/* <IconSvg width={70} height={70} /> */}
+                        <div
+                            style={{
+                                width: 70,
+                                height: 70,
+                                backgroundColor: "red",
+                            }}
+                        ></div>
                     </div>
 
                     <p className={secondSectionStyle.title}>Lorem ipsum</p>
@@ -54,6 +75,13 @@ const SecondSection = () => {
                     <div className={secondSectionStyle.listItemIcon}>
                         {/* ikona do poprawy!!! */}
                         {/* <IconSvg width={70} height={70} /> */}
+                        <div
+                            style={{
+                                width: 70,
+                                height: 70,
+                                backgroundColor: "red",
+                            }}
+                        ></div>
                     </div>
 
                     <p className={secondSectionStyle.title}>Lorem ipsum</p>

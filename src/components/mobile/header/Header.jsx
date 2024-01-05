@@ -11,7 +11,7 @@ const Header = () => {
                 justifyContent: "space-between",
             }}
         >
-            <a className={headerStyle.header__logo} href="#">
+            <a className={headerStyle.headerLogo} href="#">
                 Web<span style={{ color: "#212121" }}>Studio</span>
             </a>
 
